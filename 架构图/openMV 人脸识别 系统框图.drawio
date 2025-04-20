@@ -1,27 +1,40 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.2.13">
   <diagram name="第 1 页" id="bKzoGnPc1_lDuKWCohUP">
-    <mxGraphModel>
+    <mxGraphModel dx="655" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="人" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="44" y="8" width="76" height="54" as="geometry" />
+        <mxCell id="mN8-c9pp1NnqGCOICawP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mN8-c9pp1NnqGCOICawP-7" target="mN8-c9pp1NnqGCOICawP-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="OpenMV" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="23" y="137" width="118" height="54" as="geometry" />
+        <mxCell id="mN8-c9pp1NnqGCOICawP-7" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;被识别者&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="识别结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="266" width="124" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="通过摄像头输入图像" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="mN8-c9pp1NnqGCOICawP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mN8-c9pp1NnqGCOICawP-9" target="mN8-c9pp1NnqGCOICawP-13">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="360" y="250.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6" value="输出人脸识别结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-9" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;摄像头&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-12" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;OpenMV&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="180" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mN8-c9pp1NnqGCOICawP-12" source="mN8-c9pp1NnqGCOICawP-13" target="mN8-c9pp1NnqGCOICawP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-13" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;Haar&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt; 人脸区域识别&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mN8-c9pp1NnqGCOICawP-12">
+          <mxGeometry x="20" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mN8-c9pp1NnqGCOICawP-12" source="mN8-c9pp1NnqGCOICawP-14" target="mN8-c9pp1NnqGCOICawP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-14" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;LBP&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt; &lt;font style=&quot;font-size: 16px;&quot;&gt;特征差异度对比&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mN8-c9pp1NnqGCOICawP-12">
+          <mxGeometry x="15" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mN8-c9pp1NnqGCOICawP-16" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;LED&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt; &lt;font style=&quot;font-size: 16px;&quot;&gt;提示识别结果&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mN8-c9pp1NnqGCOICawP-12">
+          <mxGeometry x="15" y="210" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
