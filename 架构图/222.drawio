@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.2.14">
+  <diagram name="第 1 页" id="BNJfclySBw86n7ZiNwhk">
+    <mxGraphModel dx="784" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-2" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;数据库&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-2" target="Etdt9xH_cCD8-OIlEEwR-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="342.42640687119297" y="648.2842712474621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-2" target="Etdt9xH_cCD8-OIlEEwR-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="457.57359312880703" y="648.2842712474621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-6" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;用户名&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-7" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;用户密码&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-8" target="Etdt9xH_cCD8-OIlEEwR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-8" target="Etdt9xH_cCD8-OIlEEwR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-8" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;用户表&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-9" target="Etdt9xH_cCD8-OIlEEwR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-9" target="Etdt9xH_cCD8-OIlEEwR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-9" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;健康数据表&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-12" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;用户邮箱&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-8" target="Etdt9xH_cCD8-OIlEEwR-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-14" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;居民疾病&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-16" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;疾病程度&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-17" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;习惯和病史&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-9" target="Etdt9xH_cCD8-OIlEEwR-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-20" value="&lt;font face=&quot;宋体&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;其他信息&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Etdt9xH_cCD8-OIlEEwR-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Etdt9xH_cCD8-OIlEEwR-9" target="Etdt9xH_cCD8-OIlEEwR-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
