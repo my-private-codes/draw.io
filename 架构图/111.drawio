@@ -1,172 +1,32 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.2.14">
   <diagram name="第 1 页" id="oNz6BJVOKftq_mc2yhUN">
-    <mxGraphModel dx="1960" dy="3964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="293" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="模块开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="871" y="-10" width="124" height="54" as="geometry" />
+        <mxCell id="2" value="模块开始" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="240" width="124" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="zro53bZervO8bTm3QGK2-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="zro53bZervO8bTm3QGK2-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="生成健康数据图表" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="839" y="94" width="188" height="54" as="geometry" />
+        <mxCell id="3" value="生成健康数据图表" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1118" y="344" width="188" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="选择数据可视化工具" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="831" y="216" width="204" height="54" as="geometry" />
+        <mxCell id="4" value="后端返回json数据" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="466" width="204" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="生成柱状图" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="206" y="345" width="140" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="生成饼图" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="871" y="345" width="124" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="生成地图热力图" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1704" y="345" width="172" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="柱状图：对比不同地区糖尿病患者数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="146" y="449" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="横轴：地区" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="8" y="577" width="140" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="纵轴：病例数" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="198" y="577" width="156" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="支持点击切换时间维度" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="404" y="577" width="220" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="饼图：疾病严重程度分布" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="815" y="461" width="236" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="轻度" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="674" y="577" width="92" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="14" value="中度" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="816" y="577" width="92" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="15" value="重度" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="958" y="577" width="92" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="16" value="鼠标悬停显示具体占比数值" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="577" width="252" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="17" value="地图热力图：城市发病率" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1672" y="461" width="236" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="18" value="基于 ECharts 地理坐标系" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1402" y="577" width="236" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="19" value="颜色深浅表示发病率" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1688" y="577" width="204" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="20" value="点击城市弹出详细数据窗口" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1942" y="577" width="252" height="54" as="geometry" />
+        <mxCell id="6" value="生成图表" style="whiteSpace=wrap;strokeWidth=2;fontFamily=宋体;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="595" width="124" height="54" as="geometry" />
         </mxCell>
         <mxCell id="28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" value="使用 ECharts" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.5;entryY=0;" parent="1" source="4" target="5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="276" y="308" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="31" value="使用 ECharts" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="6" edge="1">
+        <mxCell id="31" value="使用 ECharts" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=宋体;" parent="1" source="4" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="32" value="使用 ECharts" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=0.5;entryY=0;" parent="1" source="4" target="7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1790" y="308" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="5" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;" parent="1" source="8" target="9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="78" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="8" target="10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;" parent="1" source="8" target="11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="514" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="6" target="12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;" parent="1" source="12" target="13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.37;exitY=1;entryX=0.5;entryY=0;" parent="1" source="12" target="14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="862" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=1;entryX=0.5;entryY=0;" parent="1" source="12" target="15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1004" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.98;entryX=0.5;entryY=0;" parent="1" source="12" target="16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1226" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="7" target="17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.02;exitY=1;entryX=0.5;entryY=0;" parent="1" source="17" target="18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1520" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="17" target="19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.5;entryY=0;" parent="1" source="17" target="20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2068" y="552" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
