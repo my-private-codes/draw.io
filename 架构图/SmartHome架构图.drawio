@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="27.0.6">
+  <diagram name="第 1 页" id="86ZlLfqplU0z9u9hHl9U">
+    <mxGraphModel dx="2066" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BpYkSkACA24uAwhNgQmC-1" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;STM32F103C8T6&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="280" width="140" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span lang=&quot;en&quot; class=&quot;ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;Grove - Gas Sensor&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span lang=&quot;en&quot; class=&quot;NA6bn BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;Digital Light Sensor&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;ESP-01S Wi-Fi Module&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="309.76" as="sourcePoint" />
+            <mxPoint x="308" y="309.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="389.76" as="sourcePoint" />
+            <mxPoint x="308" y="389.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="228" y="555" as="sourcePoint" />
+            <mxPoint x="308" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;Fan&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="309.58" as="sourcePoint" />
+            <mxPoint x="550" y="309.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="389.58" as="sourcePoint" />
+            <mxPoint x="550" y="389.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;Curtain&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="469.58" as="sourcePoint" />
+            <mxPoint x="550" y="469.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;Buzzer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="549.5799999999999" as="sourcePoint" />
+            <mxPoint x="550" y="549.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;LED Light&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-16" value="&lt;div class=&quot;YNk70c EjQTId&quot;&gt;&lt;div class=&quot;Kevs9 SLPe5b&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div role=&quot;main&quot; id=&quot;center_col&quot; class=&quot;s6JM6d ufC5Cb&quot;&gt;&lt;div id=&quot;res&quot; class=&quot;eqAnXb&quot;&gt;&lt;div id=&quot;topstuff&quot;&gt;&lt;/div&gt;&lt;div id=&quot;search&quot;&gt;&lt;div data-ved=&quot;2ahUKEwinz93QgbWNAxVMxjgGHVEjJv0QGnoECAIQCg&quot; data-hveid=&quot;CAIQCg&quot;&gt;&lt;div id=&quot;rso&quot; data-async-context=&quot;query:what%20sensor%20is%20DHT11&quot; class=&quot;dURPMd&quot;&gt;&lt;div class=&quot;MjjYud&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ULSxyf&quot;&gt;&lt;div class=&quot;MjjYud&quot;&gt;&lt;div data-ved=&quot;2ahUKEwinz93QgbWNAxVMxjgGHVEjJv0QjDYoAHoECBgQAA&quot; data-hveid=&quot;CBgQAA&quot; lang=&quot;zh-SG&quot; class=&quot;wHYlTd Ww4FFb vt6azd wF4fFd JnwWd g-blk&quot;&gt;&lt;div class=&quot;dG2XIf XzTjhb&quot;&gt;&lt;div class=&quot;c2xzTb&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div class=&quot;xpdopen&quot;&gt;&lt;div class=&quot;ifM9O&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-tts-text=&quot;digital temperature and humidity sensor&quot; data-tts=&quot;answers&quot; class=&quot;Z0LcW AZCkJd d2J77b t2b5Cf&quot;&gt;&lt;div class=&quot;IZ6rdc&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Temperature and Humidity Sensor&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BpYkSkACA24uAwhNgQmC-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="469.76" as="sourcePoint" />
+            <mxPoint x="308" y="469.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
