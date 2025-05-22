@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="27.0.8">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="316" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1215" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,6 +168,18 @@
         </mxCell>
         <mxCell id="tBYtcHkXkrTqCtvYJX2v-55" value="&lt;div&gt;control&lt;/div&gt;&lt;div&gt;buzzer&amp;nbsp;&lt;/div&gt;&lt;div&gt;led&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.merge_or_storage;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="254" y="930" width="130" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tBYtcHkXkrTqCtvYJX2v-56" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.mobile;" vertex="1" parent="1">
+          <mxGeometry x="629" y="520" width="50" height="98.99" as="geometry" />
+        </mxCell>
+        <mxCell id="tBYtcHkXkrTqCtvYJX2v-57" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="629" y="564.7449999999999" as="sourcePoint" />
+            <mxPoint x="320" y="634.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="615.25" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
